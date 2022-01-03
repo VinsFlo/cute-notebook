@@ -93,7 +93,10 @@ html {
     border-radius: 0%;
   }
   20%{
-    border-radius: 50%;
+    border-radius: 30%;
+  }
+  50%{
+    border-radius: 40%; /*//*/ 
   }
   80%{
     border-radius: 50%;   
@@ -116,7 +119,7 @@ html {
     left: 45px;
     animation: animationMouth 5s linear infinite;
 }
-/* @keyframes animationCheek{
+@keyframes animationCheek{
   0%{
     opacity: 0;
   }
@@ -132,7 +135,7 @@ html {
   100%{
     opacity: 0;
   }
-} */
+}
 .cheek{
   width: 53px;
   height: 33px;
