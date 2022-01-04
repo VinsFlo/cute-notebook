@@ -62,14 +62,29 @@ html {
   top: 135px;
   left: 148px;
 }
+@keyframes animationEyes{
+  0%{
+    background-color: #230f6e
+  }
+  50%{
+    background-color: #4021b1
+  }
+  80%{
+    background-color: #4b27cf
+  }
+  100%{
+    background-color: #5a2ff5
+  }
+}
 .eyes{
   width: 39px;
   height: 41px;
   position: absolute;
   top: 0;
   z-index: 4;
-  background-color: #49161b;
+  /* background-color: #230f6e; */
   border-radius: 50%;
+  animation: animationEyes 5s linear infinite;
 }
 .eyes:after{
   content: "";
@@ -92,9 +107,9 @@ html {
   0%{
     border-radius: 0%;
   }
-  20%{
+  /* 20%{
     border-radius: 30%;
-  }
+  } */
   50%{
     border-radius: 40%; /*//*/ 
   }
